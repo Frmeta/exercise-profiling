@@ -16,6 +16,7 @@ Performance Testing JMeter:
 - using JMeter CLI
 ![img](https://i.ibb.co/Z6gfG5p/testresults2.png)
 - using IntelliJ Profiler
+![img](images/image.png)
 
 
 /highest-gpa
@@ -41,10 +42,14 @@ Apabila dibandingkan dengan pengukuran sebelumnya, ada improvement di sample tim
 
 /all-student-name
 - using JMeter GUI
+![alt text](image-1.png)
 - using IntelliJ Profiler
-Apabila dibandingkan dengan pengukuran sebelumnya, ada improvement
+![alt text](image.png)
+Apabila dibandingkan dengan pengukuran sebelumnya, ada improvement di sample time dari pengukuran JMeter yaitu berkurang dari 10000-12000 menjadi 100-450
 
 /highest-gpa
 - using JMeter GUI
+
 - using IntelliJ Profiler
+
 Apabila dibandingkan dengan pengukuran sebelumnya, ada improvement
