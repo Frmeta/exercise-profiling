@@ -25,7 +25,7 @@ Performance Testing JMeter:
 - using JMeter CLI
 ![img](https://i.ibb.co/Zd4CpHQ/testresults3.png)
 - using IntelliJ Profiler
-
+![alt text](image-3.png)
 
 
 ### After Optimizing
@@ -35,21 +35,25 @@ Profiling (CPU time reported in the method list tab)
 /all-student
 - using JMeter GUI
 ![img_2.png](images/img_2.png)
+Apabila dibandingkan dengan pengukuran sebelumnya, ada improvement di sample time dari pengukuran JMeter yaitu berkurang dari 360000-450000 menjadi 11000-13000.
 - using IntelliJ Profiler
 ![img_1.png](images/img_1.png)
-Apabila dibandingkan dengan pengukuran sebelumnya, ada improvement di sample time dari pengukuran JMeter yaitu berkurang dari 360000-450000 menjadi 11000-13000.
 
 
 /all-student-name
 - using JMeter GUI
 ![alt text](image-1.png)
+Apabila dibandingkan dengan pengukuran sebelumnya, ada improvement di sample time dari pengukuran JMeter yaitu berkurang dari 10000-12000 menjadi 100-450
+
 - using IntelliJ Profiler
 ![alt text](image.png)
-Apabila dibandingkan dengan pengukuran sebelumnya, ada improvement di sample time dari pengukuran JMeter yaitu berkurang dari 10000-12000 menjadi 100-450
+![alt text](image-2.png)
 
 /highest-gpa
 - using JMeter GUI
+![alt text](image-5.png)
+Apabila dibandingkan dengan pengukuran sebelumnya, ada improvement di sample time dari pengukuran JMeter yaitu berkurang dari 300-422 menjadi 9-255
 
 - using IntelliJ Profiler
-
-Apabila dibandingkan dengan pengukuran sebelumnya, ada improvement
+![alt text](image-4.png)
+![alt text](image-6.png)
