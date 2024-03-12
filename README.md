@@ -73,7 +73,7 @@ Cara saya menghadapi challange ini adalah dengan membuat test lebih banyak (sepe
 5. Saya bisa dengan mudah mencari kode yang masih dapat dioptimize dengan cepat. 
 Dibanding tidak menggunakan profiling sama sekali, pasti saya harus mencari penyebab kode saya lambat dengan cara membaca semua kode satu-satu, serta apabila ditemukan biasanya hanya berpengaruh sedikit terhadap performa.
 
-6. Saya menangani situasi dimana hasil dari profiling yang tidak konsisten dengan JMeter dengan membuat lebih banyak testing seperti thread group atau menghindari pengukuran pertama kali saat program berjalan karena JIT compiler pada JVM belum sepenuhnya optimal sehingga menjadi lebih lambat.
+6. Saya menangani situasi dimana hasil dari profiling yang tidak konsisten  dengan membuat lebih banyak testing seperti thread group atau menghindari pengukuran pertama kali saat program berjalan karena JIT compiler pada JVM belum sepenuhnya optimal sehingga menjadi lebih lambat.
 
 7. Strategi untuk mengoptimize code adalah membuat database yang berisi banyak sekali data, kemudian melakukan profiling terhadap endpoint-endpoint yang ada. Dengan begitu akan terlihat jelas perbedaan waktunya apabila ada bagian kode yang di-optimize. Contoh kode yang dapat diperbaiki adalah dengan mengganti rekursif menjadi iteratif seperti for/while loop. Kemudian menggantikan string menjadi StringBuilder untuk meningkatkan performa.
 Agar perubahan saya dipastikan tidak mengganggu fungsionalitas dari aplikasi, perlu dijalankan ulang unit tests dan functional test.
